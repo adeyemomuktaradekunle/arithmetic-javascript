@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Let, const and var explained</h1>
+    <div class="box">
+     <h2>const(best choice)</h2>
+     <p>use <code>const</code> when the value should not change</p>
+     <button onclick="demoConst()">try const</button>
+     <div class="output" id="constOutput">
+       click the button to see 
+     </div>
+    </div> 
+    
+    <div class="box">
+    <h2>let (can change)</h2>
+    <p>use <code>let</code> when you plan to change the value later.</p>
+    <button onclick="demoLet()">Use let</button>
+    <div class="output" id="letOutput">
+     click the button to see
+    </div>
+    </div>
+
+    <div class="box">
+    <h2>var (old and problematic)</h2>
+    <p>old way of declaring variables</p>
+    <button onclick="demoVar()">try var</button>
+    <div class="output" id="varOutput">
+    click the button to see
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
